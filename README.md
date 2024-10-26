@@ -42,3 +42,14 @@ Start the local development server
     php artisan serve
 
 You can now access the server at http://localhost:8000
+
+## Project Structure
+
+In Laravel, the project structure is organized in a way that follows the MVC (Model-View-Controller) pattern, which helps to separate application logic, user interface, and data.
+
+1. **app/Http/Controllers**: This directory contains the controller classes, which handle requests from the user, process them, and return a response.
+2. **app/Models**: This directory contains the model classes, which represent the data and business logic of the application. In Laravel, models are typically used to interact with the database.
+3. **database/migrations**: This folder holds migration files, which are PHP scripts that define the structure of database tables.
+4. **resources/views**: This folder holds all the view files, usually written in Blade, Laravel’s templating engine.
+5. **public/**: This directory is the web root, where public assets and the main entry point for the application (`index.php`) reside.
+6. **routes/web.php**: This file defines all the web routes for your application (routes that are accessible via a browser and typically return views).
