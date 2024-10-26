@@ -1,0 +1,17 @@
+.nav-pills .nav-link {
+    border-radius: 0;
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: var(--bs-nav-link-color);
+}
+
+.nav-item + .nav-item {
+    border-left: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color)
+}
+
+.ipk-input {
+    background-color: var(--bs-secondary-bg);
+    opacity: 1;
+    pointer-events: none;
+}
